@@ -8,7 +8,7 @@
 //    juice: boolean,
 //    name: string,
 //    phone: number
-//		
+//
 // }
 
 function getOrder(text){
@@ -21,7 +21,6 @@ function getOrder(text){
 
 	var flag=1;
 	var txt= text;
-	var len= text.length;
 	txt = txt.toUpperCase();
 	var flag= 0;
 
@@ -75,7 +74,4 @@ function getOrder(text){
 
 }
 
-
-
-
-module.exports.getOrder = getOrder:
+module.exports.getOrder = getOrder;
